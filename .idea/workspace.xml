@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="23f3f77f-1017-45eb-91e0-42b845dd767b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/mesto-react.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/footer/__copyright/footer__copyright.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/footer/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/header/__logo/header__logo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/header/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/page/page.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/popup/__caption/popup__caption.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/popup/__close/popup__close.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/popup/__content/popup__content.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/popup/__figure/popup__figure.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/popup/__form/_agree/popup__form_agree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/popup/__form/popup__form.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/popup/__image/popup__image.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/popup/__input-error/_visible/popup__input-error_visible.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/popup/__input-error/popup__input-error.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/popup/__input/_type/popup__input_type_error.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/popup/__input/popup__input.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/popup/__label/popup__label.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/popup/__submit/_agree/popup__submit_agree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/popup/__submit/_disabled/popup__submit_disabled.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/popup/__submit/popup__submit.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/popup/__title/popup__title.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/popup/_img/popup_img.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/popup/_open/popup_open.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/popup/popup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/profile/__add-buttom/profile__add-button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/profile/__avatar-container/profile__avatar-container.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/profile/__avatar/profile__avatar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/profile/__content/profile__content.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/profile/__edit-buttom/profile__edit-button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/profile/__info/profile__info.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/profile/__job/profile__job.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/profile/__name/profile__name.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/profile/profile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/snapshots/__delete/snapshots__delete.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/snapshots/__element/snapshots__element.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/snapshots/__elements/snapshots__elements.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/snapshots/__info/snapshots__info.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/snapshots/__like/_active/snapshots__like_active.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/snapshots/__like/snapshots__like.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/snapshots/__num-like/snapshots__num-like.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/snapshots/__photo/snapshots__photo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/snapshots/__title/snapshots__title.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/snapshots/snapshots.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Card.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ImagePopup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PopupWithForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Add-Button.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Add-Button2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Avatar-Button.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Close-Icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Edit-Button.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Edit-Button2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/avatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/delete-button.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/kirill-pershin-1404681-unsplash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/kirill-pershin-1556355-unsplash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/kirill-pershin-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/like-active.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/like.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/Api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendor/fonts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendor/fonts/Inter-Black.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendor/fonts/Inter-Black.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendor/fonts/Inter-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendor/fonts/Inter-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendor/fonts/Inter-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendor/fonts/Inter-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendor/normalize.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2DvXY62k4tKI7qn3WcWliP9tZaq" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\komputer\dev\mesto-react\src" />
+      <recent name="C:\Users\komputer\dev\mesto-react\src\components" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="23f3f77f-1017-45eb-91e0-42b845dd767b" name="Changes" comment="" />
+      <created>1661580579505</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661580579505</updated>
+      <workItem from="1661580581696" duration="3490000" />
+      <workItem from="1661676500718" duration="6353000" />
+      <workItem from="1661757247249" duration="6986000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
