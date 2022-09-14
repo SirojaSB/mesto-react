@@ -14,10 +14,10 @@ function EditAvatarPopup({isOpen, isClose, onUpdateAvatar}){
 
     return (
         <PopupWithForm
-            name={'avatar'}
-            ariaLabel={'редактированием аватара'}
-            title={'Обновить аватар'}
-            button={'Сохранить'}
+            name='avatar'
+            ariaLabel='редактированием аватара'
+            title='Обновить аватар'
+            button='Сохранить'
             isOpen={isOpen}
             isClose={isClose}
             onSubmit={handleSubmit}>

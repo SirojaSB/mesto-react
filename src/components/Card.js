@@ -18,7 +18,7 @@ function Card({card, onCardClick, onCardLike, onCardDelete}){
     );
 
     return (
-        <li key={card._id} id={card._id} className="snapshots__element">
+        <li className="snapshots__element">
             <button type="button" className={cardDeleteButton} aria-label="Удалить карточку" onClick={function handleClick() {
                 onCardDelete(card);
             }}></button>
@@ -29,7 +29,7 @@ function Card({card, onCardClick, onCardLike, onCardDelete}){
             <div className="snapshots__info">
                 <h2 className="snapshots__title">{card.name}</h2>
                 <div className="like-container">
-                    <button type="button" className={cardLikeButtonClassName} onClick={function handleClick() {
+                    <button type="button" className={cardLikeButtonClassName} onClick={() => {
                         onCardLike(card);
                     }}/>
                     <h3 className="snapshots__num-like">{card.likes.length}</h3>

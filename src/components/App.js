@@ -1,4 +1,3 @@
-import '../index.css'
 import {useState, useEffect} from "react";
 import Header from "./Header.js";
 import Main from "./Main.js";
@@ -37,10 +36,8 @@ function App() {
   const handleCardLike = async (card) => {
       try {
           const isLiked = card.likes.some(i => i._id === currentUser._id);
-          await api.changeLikeCardStatus(card._id, isLiked)
-              .then((newCard) => {
-                  setCards((state) => state.map((c) => c._id === card._id ? newCard : c));
-              });
+          const newCard = await api.changeLikeCardStatus(card._id, isLiked)
+          setCards((state) => state.map((c) => c._id === card._id ? newCard : c));
       }
       catch (err) {
           console.log(err)
@@ -50,9 +47,7 @@ function App() {
   const handleCardDelete = async (card) => {
       try {
           await api.deleteCard(card._id)
-            .then(() => {
-                setCards((state) => state.filter((c) => c._id !== card._id));
-            });
+          setCards((state) => state.filter((c) => c._id !== card._id));
       }
       catch (err) {
           console.log(err)
@@ -159,10 +154,10 @@ function App() {
                 onUpdateAvatar={handleUpdateAvatar}>
             </EditAvatarPopup>
             <PopupWithForm
-                name={'agree'}
-                ariaLabel={'подтверждением'}
-                title={'Вы уверены?'}
-                button={'Да'}/>
+                name='agree'
+                ariaLabel='подтверждением'
+                title='Вы уверены?'
+                button='Да'/>
             <ImagePopup
                 card={selectedCard}
                 onClose={closeAllPopups}

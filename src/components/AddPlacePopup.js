@@ -25,10 +25,10 @@ function AddPlacePopup({isOpen, isClose, onAddPlace}) {
 
     return (
         <PopupWithForm
-            name={'add'}
-            ariaLabel={'добавлением'}
-            title={'Новое место'}
-            button={'Создать'}
+            name='add'
+            ariaLabel='добавлением'
+            title='Новое место'
+            button='Создать'
             isOpen={isOpen}
             isClose={isClose}
             onSubmit={handleSubmit}>

@@ -19,7 +19,7 @@ function EditProfilePopup({isOpen, isClose, onUpdateUser}) {
     useEffect(() => {
         setName(currentUser.name);
         setDescription(currentUser.about);
-    }, [currentUser])
+    }, [currentUser, isOpen])
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -32,10 +32,10 @@ function EditProfilePopup({isOpen, isClose, onUpdateUser}) {
 
     return (
         <PopupWithForm
-            name={'edit'}
-            ariaLabel={'редактированием'}
-            title={'Редактировать профиль'}
-            button={'Сохранить'}
+            name='edit'
+            ariaLabel='редактированием'
+            title='Редактировать профиль'
+            button='Сохранить'
             isOpen={isOpen}
             isClose={isClose}
             onSubmit={handleSubmit}>
