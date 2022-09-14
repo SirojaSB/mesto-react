@@ -75,6 +75,10 @@ class Api {
         })
             .then(this._getJsonOrError);
     }
+
+    changeLikeCardStatus(id, isLiked) {
+        return isLiked ? this.dislikeCard(id) : this.likeCard(id);
+    }
 }
 
 export const api = new Api({
